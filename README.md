@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/card.svg" alt="BarberFlow — no ar na AWS. Sistema de agendamento online para barbearias: EC2 t3.micro com Node.js e SQLite, pacote no S3 lido por role do IAM, Security Group só na porta 80. Custo estimado de US$ 11,90 por mês." width="100%">
+<picture><img src="assets/card.svg" alt="BarberFlow — no ar na AWS. Sistema de agendamento online para barbearias: EC2 t3.micro com Node.js e SQLite, pacote no S3 lido por role do IAM, Security Group só na porta 80. Custo estimado de US$ 11,90 por mês." width="100%"></picture>
 </div>
 
 # BarberFlow
@@ -14,7 +14,7 @@ Partimos do site de uma barbearia e acrescentamos o que faltava para ela atender
 
 ## Arquitetura na AWS
 
-<img src="assets/arquitetura.svg" alt="Arquitetura: navegador acessa a EC2 pela porta 80 (Security Group). A EC2 t3.micro roda o site, a API em Node.js e o SQLite no disco EBS; no boot baixa o pacote do S3 usando uma role do IAM. E-mails saem pelo Gmail SMTP. Tudo criado por script no CloudShell." width="100%">
+<picture><img src="assets/arquitetura.svg" alt="Arquitetura: navegador acessa a EC2 pela porta 80 (Security Group). A EC2 t3.micro roda o site, a API em Node.js e o SQLite no disco EBS; no boot baixa o pacote do S3 usando uma role do IAM. E-mails saem pelo Gmail SMTP. Tudo criado por script no CloudShell." width="100%"></picture>
 
 | Serviço | Para que serve |
 | --- | --- |
